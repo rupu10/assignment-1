@@ -46,6 +46,13 @@ body{
     border: none;
 }
 
+.banner-btn:hover{
+    background-color: white;
+    color: green;
+}
+
+
+
 .first-section{
     margin-top: 50px;
     padding: 0 120px;
@@ -243,9 +250,15 @@ body{
     font-size: 40px;
     font-weight: 700;
 }
+
+.box:hover{
+    background-color: green;
+    color: white;
+}
 .green-box{
     background-color: rgb(198, 228, 214);
 }
+
 
 input{
     /* padding: 20px 40px; */
@@ -274,4 +287,12 @@ input{
 }
 .don-btn-div{
     text-align: center;
+}
+.container{
+    margin: 0 40px;
+}
+
+.grn-btn:hover{
+    background-color: gray;
+    color: white;
 }

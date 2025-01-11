@@ -151,12 +151,15 @@ body{
 /* yunus quotes styles */
 .yunus-quotes{
     background-image: url("../assets/quote-bg.png");
-    background-position: top left;
+    background-position:left;
     background-repeat: no-repeat;
     margin-left: 24px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    padding: 48px 24px;
 }
- .qoutes{
-    padding: 48px 0;
+.qoutes{
+    /* padding: 48px 0px; */
 }
 .yunus-title{
     font-weight: 400;
@@ -170,5 +173,48 @@ body{
     color: rgba(14, 14, 14, 0.8);
     margin-top: 12px;
 }
-
-
+.news-content h1{
+    font-weight: 700;
+    font-size: 40px;
+}
+.news-column{
+    display: flex;
+    gap: 60px;
+    padding: 48px;
+    background-color: rgb(255, 255, 255);
+    justify-content: space-between;
+    border-radius: 24px;
+    
+}
+.news-img img{
+    border-radius: 24px;
+}
+.news-btn{
+    padding: 13px 26px;
+    background-color: rgb(0, 106, 80);
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 8px;
+}
+.column-left h3{
+    font-size: 32px;
+    font-weight: 700;
+    color: rgba(14, 14, 14, 0.8);
+    margin-bottom: 12px;
+}
+.al-jazira>img{
+    margin-bottom: 12px;
+}
+.date-and-time{
+    display: flex;
+    gap: 12px;
+    margin-bottom: 12px;
+}
+.news-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+    margin-bottom: 32px;
+}

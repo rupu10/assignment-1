@@ -7,6 +7,14 @@ body{
     padding: 0;
 }
 
+/* shared styles */
+.description{
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+}
+
+/* banner section styles */
 .banner{
     display: flex;
     justify-content: space-between;
@@ -19,12 +27,14 @@ body{
     font-size: 24px;
     font-weight: 500;
     color: rgba(14, 14, 14, 0.5);
+    margin-bottom: 16px;
 
 }
 .banner-title{
     font-size: 56px;
     font-weight: 700;
     color: rgb(14, 14, 14);
+    margin-bottom: 24px;
 }
 .banner-btn{
     font-weight: 600;
@@ -40,26 +50,33 @@ body{
     margin-top: 50px;
     padding: 0 120px;
 }
+
+/* section style */
+
+.first-section h1{
+    color: rgb(14, 14, 14);
+    font-weight: 700;
+    font-size: 40px;
+}
+
+
+/* card section */
 .main-card{
     display: flex;
     gap: 24px;
     margin: 50px ;
 }
+
+/* card-1 styles */
 .card-1{
     background: rgba(84, 144, 245, 0.2);
     border-radius: 16px;
     padding: 32px;
 }
-.card-2{
-    background: rgb(198, 228, 214);
-    border-radius: 16px;
-    padding: 32px;
+.card-1 > div{
+    margin-bottom: 33px;
 }
-.card-3{
-    border-radius: 16px;
-    padding: 32px;
-    background: rgb(247, 235, 207);
-}
+
 .card-1 button{
     background: rgb(84, 144, 245);
     padding: 11px 20px;
@@ -70,6 +87,20 @@ body{
     color: rgb(255, 255, 255);
     margin-top: 24px;
 }
+
+.card-1 h3{
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+
+/* card-2 styles */
+.card-2{
+    background: rgb(198, 228, 214);
+    border-radius: 16px;
+    padding: 32px;
+}
+
 .card-2 button{
     background: rgb(9, 161, 92);
     padding: 11px 20px;
@@ -80,6 +111,24 @@ body{
     color: rgb(255, 255, 255);
     margin-top: 24px;
 }
+.card-2>div{
+    margin-bottom: 33px;
+}
+
+.card-2 h3{
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 12px;
+
+}
+
+/* card-3 styles */
+.card-3{
+    border-radius: 16px;
+    padding: 32px;
+    background: rgb(247, 235, 207);
+}
+
 .card-3 button{
     background: rgb(255, 194, 57);
     padding: 11px 20px;
@@ -90,8 +139,36 @@ body{
     color: rgb(255, 255, 255);
     margin-top: 24px;
 }
-.first-section h1{
-    color: rgb(14, 14, 14);
-    font-weight: 700;
-    font-size: 40px;
+
+.card-3>div{
+    margin-bottom: 33px;
 }
+.card-3 h3{
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+/* yunus quotes styles */
+.yunus-quotes{
+    background-image: url("../assets/quote-bg.png");
+    background-position: top left;
+    background-repeat: no-repeat;
+    margin-left: 24px;
+}
+ .qoutes{
+    padding: 48px 0;
+}
+.yunus-title{
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.6);
+    margin-top: 4px;
+}
+.yunus-quotes-title{
+    font-weight: 600;
+    font-size: 20px;
+    color: rgba(14, 14, 14, 0.8);
+    margin-top: 12px;
+}
+
+
